@@ -1,0 +1,34 @@
+name: Validate marketplace.json
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.claude-plugin/marketplace.json'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    paths:
+      - '.claude-plugin/marketplace.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON syntax
+        run: |
+          python3 -c "import json, sys; data = json.load(open('.claude-plugin/marketplace.json')); \
+            assert 'name' in data, 'missing name'; \
+            assert 'owner' in data, 'missing owner'; \
+            assert 'plugins' in data and isinstance(data['plugins'], list), 'missing/invalid plugins list'; \
+            [ (p.get('name') and p.get('source')) or sys.exit(f'plugin missing name or source: {p}') for p in data['plugins'] ]; \
+            print(f'✓ marketplace.json valid — {len(data[\"plugins\"])} plugin(s) declared')"
+
+      - name: Check plugin name uniqueness
+        run: |
+          python3 -c "import json; data = json.load(open('.claude-plugin/marketplace.json')); \
+            names = [p['name'] for p in data['plugins']]; \
+            dupes = {n for n in names if names.count(n) > 1}; \
+            assert not dupes, f'duplicate plugin names: {dupes}'; \
+            print('✓ all plugin names are unique')"

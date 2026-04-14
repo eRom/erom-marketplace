@@ -1,33 +1,28 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "erom-marketplace",
+  "description": "Plugins Claude Code de Romain Ecarnot — agents, skills, MCP servers pour orchestration multi-projets et productivité.",
+  "version": "0.1.0",
   "owner": {
     "name": "Romain Ecarnot",
-    "email": "romain.ecarnot@gmail.com",
-    "url": "https://github.com/eRom"
-  },
-  "metadata": {
-    "description": "Plugins Claude Code de Romain Ecarnot — agents, skills, MCP servers pour orchestration multi-projets et productivité.",
-    "version": "0.1.0"
+    "email": "romain.ecarnot@gmail.com"
   },
   "plugins": [
     {
       "name": "gerber",
       "source": {
         "source": "url",
-        "repo": "https://github.com/eRom/gerber-caserne.git"
+        "url": "https://github.com/eRom/gerber-caserne.git"
       },
       "description": "Brain & productivity MCP — notes, tâches, issues, messagerie inter-sessions avec recherche sémantique pour agents IA.",
       "version": "0.1.0",
       "author": {
         "name": "Romain Ecarnot",
-        "email": "romain.ecarnot@gmail.com",
-        "url": "https://github.com/eRom"
+        "email": "romain.ecarnot@gmail.com"
       },
       "homepage": "https://github.com/eRom/gerber-caserne",
       "repository": "https://github.com/eRom/gerber-caserne",
       "license": "MIT",
-      "keywords": [
+      "tags": [
         "mcp",
         "memory",
         "agent-orchestration",

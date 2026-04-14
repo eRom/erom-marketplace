@@ -12,7 +12,7 @@
   },
   "plugins": [
     {
-      "name": "gerber-caserne",
+      "name": "gerber",
       "source": {
         "source": "github",
         "repo": "eRom/gerber-caserne"
@@ -31,12 +31,13 @@
         "mcp",
         "memory",
         "agent-orchestration",
+        "skill",
         "task-management",
         "knowledge-base",
         "cross-session"
       ],
       "category": "productivity",
-      "strict": false
+      "strict": true
     }
   ]
 }

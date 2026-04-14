@@ -18,7 +18,7 @@ Ajoute cette marketplace à ton Claude Code :
 Puis installe le plugin de ton choix :
 
 ```
-/plugin install gerber-caserne@erom-marketplace
+/plugin install gerber@erom-marketplace
 ```
 
 Pour lister tout ce qui est dispo :
@@ -31,7 +31,7 @@ Pour lister tout ce qui est dispo :
 
 ## Plugins disponibles
 
-### `gerber-caserne`
+### `gerber`
 
 Brain & productivity MCP server. Stocke tes notes, tâches et issues avec recherche sémantique, et permet à plusieurs sessions Claude Code de communiquer entre elles via un bus de messages.
 
@@ -42,7 +42,7 @@ Brain & productivity MCP server. Stocke tes notes, tâches et issues avec recher
 Installation directe :
 
 ```
-/plugin install gerber-caserne@erom-marketplace
+/plugin install gerber@erom-marketplace
 ```
 
 ---

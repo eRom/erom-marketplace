@@ -14,8 +14,8 @@
     {
       "name": "gerber",
       "source": {
-        "source": "github",
-        "repo": "eRom/gerber-caserne"
+        "source": "url",
+        "repo": "https://github.com/eRom/gerber-caserne.git"
       },
       "description": "Brain & productivity MCP — notes, tâches, issues, messagerie inter-sessions avec recherche sémantique pour agents IA.",
       "version": "0.1.0",

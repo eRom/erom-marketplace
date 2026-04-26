@@ -33,6 +33,33 @@
       ],
       "category": "productivity",
       "strict": true
+    },
+    {
+      "name": "deploy-vps",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eRom/vps-docker-manager.git"
+      },
+      "description": "Deploy multi-apps Docker pattern : tag-driven release pipeline (GHCR + sops + Traefik) pour VPS unique.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Romain Ecarnot",
+        "email": "romain.ecarnot@gmail.com"
+      },
+      "homepage": "https://github.com/eRom/vps-docker-manager",
+      "repository": "https://github.com/eRom/vps-docker-manager",
+      "license": "MIT",
+      "tags": [
+        "deploy",
+        "docker",
+        "vps",
+        "ghcr",
+        "sops",
+        "traefik",
+        "multi-apps"
+      ],
+      "category": "devops",
+      "strict": true
     }
   ]
 }

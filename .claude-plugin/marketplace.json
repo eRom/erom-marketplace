@@ -10,8 +10,9 @@
     {
       "name": "gerber",
       "source": {
-        "source": "url",
-        "url": "https://github.com/eRom/gerber-caserne.git"
+        "source": "git-subdir",
+        "url": "https://github.com/eRom/gerber-caserne.git",
+        "path": "gerber-claude-plugin"
       },
       "description": "Brain & productivity MCP — notes, tâches, issues, messagerie inter-sessions avec recherche sémantique pour agents IA.",
       "version": "0.1.0",
@@ -27,6 +28,8 @@
         "memory",
         "agent-orchestration",
         "skill",
+        "hooks",
+        "agentes",
         "task-management",
         "knowledge-base",
         "cross-session"

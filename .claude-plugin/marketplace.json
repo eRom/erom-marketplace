@@ -15,7 +15,7 @@
         "path": "gerber-claude-plugin"
       },
       "description": "Brain & productivity MCP — notes, tâches, issues, messagerie inter-sessions avec recherche sémantique pour agents IA.",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "author": {
         "name": "Romain Ecarnot",
         "email": "romain.ecarnot@gmail.com"

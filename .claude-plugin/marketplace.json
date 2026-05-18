@@ -15,7 +15,7 @@
         "path": "gerber-claude-plugin"
       },
       "description": "Orchestration MCP — tâches, issues, messages inter-sessions, handoffs, runbooks. Mémoire de connaissance déléguée au vault Gemini RAG.",
-      "version": "2.3.1",
+      "version": "2.3.2",
       "author": {
         "name": "Romain Ecarnot",
         "email": "romain.ecarnot@gmail.com"

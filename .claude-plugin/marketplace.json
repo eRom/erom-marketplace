@@ -40,7 +40,7 @@
     {
       "name": "hostinger",
       "source": {
-        "source": "url",
+        "source": "git",
         "url": "https://github.com/eRom/vps-docker-manager.git"
       },
       "description": "Deploy multi-apps Docker pattern : tag-driven release pipeline (GHCR + sops + Traefik) pour VPS unique.",

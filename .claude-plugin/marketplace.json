@@ -30,8 +30,7 @@
         "knowledge-base",
         "cross-session"
       ],
-      "category": "productivity",
-      "strict": true
+      "category": "productivity"
     }
   ]
 }

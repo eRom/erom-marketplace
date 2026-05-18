@@ -1,7 +1,7 @@
 {
   "name": "erom-marketplace",
-  "description": "Plugins Claude Code de Romain Ecarnot — agents, skills, MCP servers pour orchestration multi-projets et productivité.",
-  "version": "0.3.0",
+  "description": "Plugins Claude Code de Romain Ecarnot — Skills, MCP server for Tasks, Handoff, RAG et productivité.",
+  "version": "0.3.2",
   "owner": {
     "name": "Romain Ecarnot",
     "email": "romain.ecarnot@gmail.com"
@@ -25,11 +25,7 @@
       "license": "MIT",
       "tags": [
         "mcp",
-        "memory",
-        "agent-orchestration",
         "skill",
-        "hooks",
-        "agentes",
         "task-management",
         "knowledge-base",
         "cross-session"

@@ -15,7 +15,7 @@
         "path": "gerber-claude-plugin"
       },
       "description": "Orchestration helpers pour agents IA — handoffs via Linear, bus de messages via Airtable, RAG via Gemini vault, onboarding projet et setup repo.",
-      "version": "2.4.1",
+      "version": "2.5.0",
       "author": {
         "name": "Romain Ecarnot",
         "email": "romain.ecarnot@gmail.com"

@@ -6,6 +6,7 @@
   "plugins": [
     {
       "name": "gerber",
+      "version": "2.6.1",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/eRom/gerber-caserne.git",

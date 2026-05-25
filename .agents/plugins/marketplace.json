@@ -1,0 +1,21 @@
+{
+  "name": "erom-marketplace",
+  "interface": {
+    "displayName": "eRom Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "gerber",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eRom/gerber-caserne.git",
+        "path": "gerber-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    }
+  ]
+}

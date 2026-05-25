@@ -1,13 +1,13 @@
 # erom-marketplace
 
-> Plugins Claude Code de [Romain Ecarnot](https://github.com/eRom) — agents, skills et MCP servers pour orchestration multi-projets et productivité.
+> Plugins Claude Code et Codex de [Romain Ecarnot](https://github.com/eRom) — agents, skills et MCP servers pour orchestration multi-projets et productivité.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-plugins-8B5CF6)](https://docs.claude.com/en/docs/claude-code)
 
 ---
 
-## Installation
+## Installation Claude Code
 
 Ajoute cette marketplace à ton Claude Code :
 
@@ -27,13 +27,31 @@ Pour lister tout ce qui est dispo :
 /plugin marketplace browse erom-marketplace
 ```
 
+## Installation Codex
+
+La marketplace Codex vit dans [`.agents/plugins/marketplace.json`](./.agents/plugins/marketplace.json).
+
+Elle pointe vers le plugin Codex Gerber dans son repo source via `git-subdir` :
+
+```json
+{
+  "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/eRom/gerber-caserne.git",
+    "path": "gerber-codex-plugin"
+  }
+}
+```
+
+Note : le format `git-subdir` est aligne sur la marketplace Claude existante. La doc/validation locale Codex documente surtout les sources `local`, donc cette entree sert de test d'installation Codex.
+
 ---
 
 ## Plugins disponibles
 
 ### `gerber`
 
-Brain & productivity MCP server. Stocke tes notes, tâches et issues avec recherche sémantique, et permet à plusieurs sessions Claude Code de communiquer entre elles via un bus de messages.
+Brain & productivity MCP server. Stocke tes notes, tâches et issues avec recherche sémantique, et permet à plusieurs sessions Claude Code ou Codex de communiquer entre elles via un bus de messages.
 
 - **Catégorie** : productivity
 - **Repo** : [eRom/gerber-caserne](https://github.com/eRom/gerber-caserne)
@@ -47,7 +65,7 @@ Installation directe :
 
 ---
 
-## Ajouter un nouveau plugin à la marketplace
+## Ajouter un nouveau plugin à la marketplace Claude
 
 1. Crée/prépare ton plugin dans son propre repo GitHub (doit contenir idéalement `.claude-plugin/plugin.json` à la racine, sinon laisse `strict: false` dans l'entrée marketplace).
 2. Ajoute une entrée dans [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json) :
@@ -82,10 +100,32 @@ Installation directe :
 - **npm** : `{ "source": "npm", "package": "@scope/plugin" }`
 - **Chemin local** (dev uniquement) : `"source": "./plugins/mon-plugin"`
 
-### Mode strict
+### Mode strict Claude
 
 - `strict: true` (défaut) — l'entrée marketplace ne sert qu'à pointer vers le plugin ; les métadonnées viennent de son `.claude-plugin/plugin.json`.
 - `strict: false` — l'entrée marketplace est auto-suffisante (utile tant que le repo plugin n'a pas encore son `plugin.json`).
+
+## Ajouter un nouveau plugin à la marketplace Codex
+
+Ajoute une entrée dans [`.agents/plugins/marketplace.json`](./.agents/plugins/marketplace.json) :
+
+```json
+{
+  "name": "mon-plugin",
+  "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/eRom/mon-repo.git",
+    "path": "mon-codex-plugin"
+  },
+  "policy": {
+    "installation": "AVAILABLE",
+    "authentication": "ON_INSTALL"
+  },
+  "category": "Coding"
+}
+```
+
+Le plugin cible doit contenir `.codex-plugin/plugin.json`.
 
 ---
 

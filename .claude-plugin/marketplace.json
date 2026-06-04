@@ -1,27 +1,27 @@
 {
   "name": "erom-marketplace",
   "description": "Plugins Claude Code de Romain Ecarnot — Skills, MCP server for Tasks, Handoff, RAG et productivité.",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "owner": {
     "name": "Romain Ecarnot",
     "email": "romain.ecarnot@gmail.com"
   },
   "plugins": [
     {
-      "name": "gerber",
+      "name": "caserne",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/eRom/gerber-caserne.git",
-        "path": "gerber-claude-plugin"
+        "url": "https://github.com/eRom/erom-agence-plugin.git",
+        "path": "claude-agence-plugin"
       },
       "description": "Orchestration helpers pour agents IA — handoffs via Linear, bus de messages via Airtable, RAG via Gemini vault, onboarding projet et setup repo.",
-      "version": "2.6.1",
+      "version": "2.7.1",
       "author": {
         "name": "Romain Ecarnot",
         "email": "romain.ecarnot@gmail.com"
       },
-      "homepage": "https://github.com/eRom/gerber-caserne",
-      "repository": "https://github.com/eRom/gerber-caserne",
+      "homepage": "https://github.com/eRom/erom-agence-plugin",
+      "repository": "https://github.com/eRom/erom-agence-plugin",
       "license": "MIT",
       "tags": [
         "mcp",

@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "caserne",
-      "version": "2.7.1",
+      "version": "2.7.2",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/eRom/erom-agence-plugin.git",

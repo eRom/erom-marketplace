@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.6.0"
+    "version": "0.6.1"
   },
   "plugins": [
     {
@@ -25,8 +25,8 @@
         "source": "url",
         "url": "https://github.com/eRom/erom-agence-devil.git"
       },
-      "description": "Avocats du diable : review critique de specs (score/verdict) et interrogatoire socratique de brainstormings (les questions jamais posées), par Gemini, GLM et Deepseek, unitaires ou en swarm.",
-      "version": "0.2.1",
+      "description": "Avocats du diable : reviews critiques de specs (score, verdict, issues), interrogatoire socratique de brainstormings (les questions jamais posées) et review de changements de code (PR, branche, range, working tree), par Gemini, GLM, Deepseek et Opus, unitaires ou en swarm.",
+      "version": "0.3.0",
       "strict": true
     }
   ]

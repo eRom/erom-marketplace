@@ -26,7 +26,7 @@
         "url": "https://github.com/eRom/erom-agence-devil.git"
       },
       "description": "Avocats du diable : reviews critiques de specs (score, verdict, issues), interrogatoire socratique de brainstormings (les questions jamais posées) et review de changements de code (PR, branche, range, working tree), par Gemini, GLM, Deepseek et Opus, unitaires ou en swarm.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "strict": true
     }
   ]

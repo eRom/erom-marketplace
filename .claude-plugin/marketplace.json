@@ -16,7 +16,7 @@
         "url": "https://github.com/eRom/erom-caserne.git"
       },
       "description": "Cross-project orchestration helpers for AI coding agents.",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "strict": true
     },
     {

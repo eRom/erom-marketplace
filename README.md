@@ -18,7 +18,7 @@ Ajoute cette marketplace à ton Claude Code :
 Puis installe le plugin de ton choix :
 
 ```
-/plugin install gerber@erom-marketplace
+/plugin install erom-caserne@erom-marketplace
 ```
 
 Pour lister tout ce qui est dispo :
@@ -31,37 +31,54 @@ Pour lister tout ce qui est dispo :
 
 La marketplace Codex vit dans [`.agents/plugins/marketplace.json`](./.agents/plugins/marketplace.json).
 
-Elle pointe vers le plugin Codex Gerber dans son repo source via `git-subdir` :
+Elle expose `caserne`, qui pointe vers le repo `eRom/erom-caserne` (dont le `.codex-plugin/plugin.json`
+sert de manifeste côté Codex) :
 
 ```json
 {
+  "name": "caserne",
   "source": {
-    "source": "git-subdir",
-    "url": "https://github.com/eRom/gerber-caserne.git",
-    "path": "gerber-codex-plugin"
+    "source": "url",
+    "url": "https://github.com/eRom/erom-caserne.git"
   }
 }
 ```
 
-Note : le format `git-subdir` est aligne sur la marketplace Claude existante. La doc/validation locale Codex documente surtout les sources `local`, donc cette entree sert de test d'installation Codex.
+Note : côté Codex l'entrée garde le nom court `caserne` (le préfixe `erom-` ne sert qu'à grouper les
+plugins dans l'autocomplete Claude Code, où ils côtoient les plugins officiels).
 
 ---
 
 ## Plugins disponibles
 
-### `gerber`
+| Plugin | Repo | Skills | Ce qu'il fait |
+|---|---|---|---|
+| `erom-caserne` | [eRom/erom-caserne](https://github.com/eRom/erom-caserne) | `control`, `inbox`, `network`, `orchestrate`, `relay` | L'agence : identité Linear / Slack / mail via le MCP Caserne, swarm tmux de salariés IA, relais d'idées |
+| `erom-devil` | [eRom/erom-devil](https://github.com/eRom/erom-devil) | `spec`, `brain`, `code` (+ `-swarm`) | Avocats du diable externes (Gemini, GLM, Deepseek, Opus, Kimi) sur specs, brainstorms et changements de code |
+| `erom-research` | [eRom/erom-research](https://github.com/eRom/erom-research) | `agy`, `grok`, `nlm` | Trois moteurs de deep research : multi-rounds piloté, moteur indépendant asynchrone, référentiel NotebookLM persistant |
+| `erom-image` | [eRom/erom-image](https://github.com/eRom/erom-image) | `gpt`, `nanobanana` | Génération et édition d'images par MCP : texte exact et haute fidélité (OpenAI), volume et icônes (Gemini) |
 
-Brain & productivity MCP server. Stocke tes notes, tâches et issues avec recherche sémantique, et permet à plusieurs sessions Claude Code ou Codex de communiquer entre elles via un bus de messages.
-
-- **Catégorie** : productivity
-- **Repo** : [eRom/gerber-caserne](https://github.com/eRom/gerber-caserne)
-- **Usage** : orchestration agent, mémoire cross-session, gestion de connaissances projet
-
-Installation directe :
+Installation :
 
 ```
-/plugin install gerber@erom-marketplace
+/plugin install erom-devil@erom-marketplace
 ```
+
+Invocation : `/erom-devil:code`, `/erom-research:agy`, `/erom-caserne:inbox`, `/erom-image:gpt`.
+
+## Convention de nommage
+
+Actée le 2026-07-30, appliquée aux quatre plugins :
+
+1. **Le repo GitHub, le plugin et son namespace portent le même nom** : `erom-<domaine>`. Aucun mapping
+   à retenir entre ce qu'on installe, ce qu'on invoque et l'endroit où le code vit.
+2. **La skill ne répète jamais le domaine** : elle nomme le moteur ou l'action (`agy`, `gpt`, `inbox`,
+   `brain-swarm`), le namespace portant déjà le contexte. D'où `/erom-devil:brain-swarm` et non
+   `/devil:devil-brain-swarm`.
+3. **« agence » est réservé au réseau d'agents caserne**, jamais utilisé comme préfixe technique.
+
+Les dossiers locaux de développement (`~/dev/erom-agence-*`) gardent leurs anciens noms : ils ne sont
+visibles de personne d'autre, et les renommer casserait terminaux et scripts pour rien.
 
 ---
 

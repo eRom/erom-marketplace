@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.7.1"
+    "version": "0.8.0"
   },
   "plugins": [
     {
@@ -37,6 +37,18 @@
       },
       "description": "Trois moteurs de deep research complémentaires : agy (multi-rounds piloté par Claude — matrice de preuves, gate plan, red-team), grok (moteur indépendant asynchrone hors quota Google) et NotebookLM (référentiel persistant de 40-70 sources, réinterrogeable). Rapports cités sauvés dans docs/research/<moteur>/.",
       "version": "0.1.1",
+      "strict": true
+    },
+    {
+      "name": "agence-image",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eRom/erom-agence-image.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "description": "Génération et édition d'images par MCP : nanobanana (Gemini) pour images, icônes et diagrammes ; gpt-image (OpenAI gpt-image-2) pour texte exact dans l'image, compositions multi-images et éditions haute fidélité. Skills de routage et de prompting incluses.",
+      "version": "0.1.0",
       "strict": true
     }
   ]

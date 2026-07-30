@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.6.2"
+    "version": "0.7.0"
   },
   "plugins": [
     {
@@ -27,6 +27,16 @@
       },
       "description": "Avocats du diable : reviews critiques de specs (score, verdict, issues), interrogatoire socratique de brainstormings (les questions jamais posées) et review de changements de code (PR, branche, range, working tree), par Gemini, GLM, Deepseek, Opus et Kimi, unitaires ou en swarm.",
       "version": "0.4.0",
+      "strict": true
+    },
+    {
+      "name": "deep-research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eRom/erom-agence-deep-research.git"
+      },
+      "description": "Trois moteurs de deep research complémentaires : agy (multi-rounds piloté par Claude — matrice de preuves, gate plan, red-team), grok (moteur indépendant asynchrone hors quota Google) et NotebookLM (référentiel persistant de 40-70 sources, réinterrogeable). Rapports cités sauvés dans docs/research/<moteur>/.",
+      "version": "0.1.0",
       "strict": true
     }
   ]

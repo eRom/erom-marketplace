@@ -56,7 +56,7 @@ plugins dans l'autocomplete Claude Code, où ils côtoient les plugins officiels
 | `erom-caserne` | [eRom/erom-caserne](https://github.com/eRom/erom-caserne) | `control`, `inbox`, `network`, `orchestrate`, `relay` | L'agence : identité Linear / Slack / mail via le MCP Caserne, swarm tmux de salariés IA, relais d'idées |
 | `erom-devil` | [eRom/erom-devil](https://github.com/eRom/erom-devil) | `spec`, `brain`, `code` (+ `-swarm`) | Avocats du diable externes (Gemini, GLM, Deepseek, Opus, Kimi) sur specs, brainstorms et changements de code |
 | `erom-research` | [eRom/erom-research](https://github.com/eRom/erom-research) | `agy`, `grok`, `nlm` | Trois moteurs de deep research : multi-rounds piloté, moteur indépendant asynchrone, référentiel NotebookLM persistant |
-| `erom-image` | [eRom/erom-image](https://github.com/eRom/erom-image) | `gpt`, `nanobanana` | Génération et édition d'images par MCP : texte exact et haute fidélité (OpenAI), volume et icônes (Gemini) |
+| `erom-image` | [eRom/erom-image](https://github.com/eRom/erom-image) | `gpt`, `nanobanana`, `filigrane` | Génération et édition d'images par MCP : texte exact et haute fidélité (OpenAI), volume et icônes (Gemini), puis filigrane image/PDF avant diffusion |
 
 Installation :
 

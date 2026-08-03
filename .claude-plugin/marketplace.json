@@ -56,6 +56,18 @@
       "description": "Atelier image et document : nanobanana (Gemini) pour images, icônes et diagrammes ; gpt-image (OpenAI gpt-image-2) pour texte exact dans l'image, compositions multi-images et éditions haute fidélité ; filigrane pour marquer images et PDF avant diffusion (surimpression vectorielle non destructive, chiffrement AES-256 optionnel, sans API ni clé). Skills de routage et de prompting incluses.",
       "version": "0.3.0",
       "strict": true
+    },
+    {
+      "name": "erom-gemini",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eRom/erom-gemini.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "description": "",
+      "version": "0.1.0",
+      "strict": true
     }
   ]
 }

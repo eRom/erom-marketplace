@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.11.0"
+    "version": "0.11.1"
   },
   "plugins": [
     {
@@ -42,7 +42,7 @@
         "ref": "main"
       },
       "description": "Trois moteurs de deep research complémentaires : agy (multi-rounds piloté par Claude — matrice de preuves, gate plan, red-team), grok (moteur indépendant asynchrone hors quota Google) et NotebookLM (référentiel persistant de 40-70 sources, réinterrogeable). Rapports cités sauvés dans docs/research/<moteur>/.",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "strict": true
     },
     {

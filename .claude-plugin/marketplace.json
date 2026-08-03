@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.10.3"
+    "version": "0.11.0"
   },
   "plugins": [
     {
@@ -65,7 +65,7 @@
         "path": "plugin",
         "ref": "main"
       },
-      "description": "",
+      "description": "Offloade vers Gemini (Antigravity CLI) les capacités multimodales absentes de Claude Code : transcription fidèle d'un audio/vidéo, breakdown visuel horodaté d'une vidéo (scènes, OCR écran), question-réponse sur un média, conversion OCR document → markdown. Sorties sauvées dans docs/gemini/.",
       "version": "0.1.0",
       "strict": true
     }

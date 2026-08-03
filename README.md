@@ -57,6 +57,7 @@ plugins dans l'autocomplete Claude Code, où ils côtoient les plugins officiels
 | `erom-devil` | [eRom/erom-devil](https://github.com/eRom/erom-devil) | `spec`, `brain`, `code` (+ `-swarm`) | Avocats du diable externes (Gemini, GLM, Deepseek, Opus, Kimi) sur specs, brainstorms et changements de code |
 | `erom-research` | [eRom/erom-research](https://github.com/eRom/erom-research) | `agy`, `grok`, `nlm` | Trois moteurs de deep research : multi-rounds piloté, moteur indépendant asynchrone, référentiel NotebookLM persistant |
 | `erom-image` | [eRom/erom-image](https://github.com/eRom/erom-image) | `gpt`, `nanobanana`, `filigrane` | Génération et édition d'images par MCP : texte exact et haute fidélité (OpenAI), volume et icônes (Gemini), puis filigrane image/PDF avant diffusion |
+| `erom-gemini` | [eRom/erom-gemini](https://github.com/eRom/erom-gemini) | `transcribe`, `video`, `media`, `doc-to-md` | Les yeux et les oreilles de Claude Code : transcription audio/vidéo, breakdown visuel horodaté, Q&A sur un média, OCR document → markdown, offloadés vers Gemini |
 
 Installation :
 
@@ -64,7 +65,7 @@ Installation :
 /plugin install erom-devil@erom-marketplace
 ```
 
-Invocation : `/erom-devil:code`, `/erom-research:agy`, `/erom-caserne:inbox`, `/erom-image:gpt`.
+Invocation : `/erom-devil:code`, `/erom-research:agy`, `/erom-caserne:inbox`, `/erom-image:gpt`, `/erom-gemini:transcribe`.
 
 ## Convention de nommage
 

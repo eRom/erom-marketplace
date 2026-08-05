@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.11.3"
+    "version": "0.11.4"
   },
   "plugins": [
     {
@@ -54,7 +54,7 @@
         "ref": "main"
       },
       "description": "Atelier image et document : nanobanana (Gemini) pour images, icônes et diagrammes ; gpt-image (OpenAI gpt-image-2) pour texte exact dans l'image, compositions multi-images et éditions haute fidélité ; filigrane pour marquer images et PDF avant diffusion (surimpression vectorielle non destructive, chiffrement AES-256 optionnel, sans API ni clé). Skills de routage et de prompting incluses.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "strict": true
     },
     {

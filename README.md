@@ -58,6 +58,7 @@ plugins dans l'autocomplete Claude Code, où ils côtoient les plugins officiels
 | `erom-research` | [eRom/erom-research](https://github.com/eRom/erom-research) | `agy`, `claude`, `grok`, `nlm` | Quatre moteurs de deep research : multi-rounds piloté, moteur natif sans dépendance externe, moteur indépendant asynchrone, référentiel NotebookLM persistant ; rapports centralisés dans `~/.claude/erom-plugins/researchs/` |
 | `erom-image` | [eRom/erom-image](https://github.com/eRom/erom-image) | `gpt`, `nanobanana`, `filigrane`, `qrcode` | Génération et édition d'images par MCP : texte exact et haute fidélité (OpenAI), volume et icônes (Gemini), puis filigrane image/PDF avant diffusion et QR-Code relu avant écriture |
 | `erom-gemini` | [eRom/erom-gemini](https://github.com/eRom/erom-gemini) | `transcribe`, `video`, `media`, `doc-to-md` | Les yeux et les oreilles de Claude Code : transcription audio/vidéo, breakdown visuel horodaté, Q&A sur un média, OCR document → markdown, offloadés vers Gemini |
+| `erom-insight` | [eRom/erom-agence-insight](https://github.com/eRom/erom-agence-insight) | `harness` | Veille sur les harnais et agents CLI tiers : swarm de lecteurs sur facettes disjointes, réfutation des fausses trouvailles, rapport or/argent/bronze de ce qui vaut d'être repris dans la config Claude Code |
 
 Installation :
 

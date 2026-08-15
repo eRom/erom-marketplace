@@ -42,7 +42,7 @@
         "ref": "main"
       },
       "description": "Quatre moteurs de deep research complémentaires : agy (multi-rounds piloté par Claude, matrice de preuves, gate plan, vote 3 voix), claude (même pipeline via subagents natifs, sans dépendance externe), grok (moteur indépendant asynchrone hors quota Google) et NotebookLM (référentiel persistant de 40-70 sources, réinterrogeable). Rapports cités centralisés dans ~/.claude/erom-plugins/researchs/ (frontmatter avec projet d'origine).",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "strict": true
     },
     {
@@ -90,7 +90,7 @@
         "ref": "main"
       },
       "description": "Explore un repo GitHub tiers et en extrait ce qui vaut d'être repris dans une config Claude Code. La skill harness cible les harnais et agents CLI (dsh, opencode, crush, goose) : swarm de lecteurs sur des facettes disjointes, réfutation des fausses trouvailles, rapport or/argent/bronze archivé et daté dans ~/.claude/erom-plugins/insights/.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "strict": true
     }
   ]

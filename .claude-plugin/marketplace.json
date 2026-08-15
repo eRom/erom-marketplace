@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.14.0"
+    "version": "0.15.0"
   },
   "plugins": [
     {
@@ -41,8 +41,8 @@
         "path": "plugin",
         "ref": "main"
       },
-      "description": "Quatre moteurs de deep research complémentaires : agy (multi-rounds piloté par Claude, matrice de preuves, gate plan, vote 3 voix), claude (même pipeline via subagents natifs, sans dépendance externe), grok (moteur indépendant asynchrone hors quota Google) et NotebookLM (référentiel persistant de 40-70 sources, réinterrogeable). Rapports cités sauvés dans docs/research/<moteur>/.",
-      "version": "0.4.0",
+      "description": "Quatre moteurs de deep research complémentaires : agy (multi-rounds piloté par Claude, matrice de preuves, gate plan, vote 3 voix), claude (même pipeline via subagents natifs, sans dépendance externe), grok (moteur indépendant asynchrone hors quota Google) et NotebookLM (référentiel persistant de 40-70 sources, réinterrogeable). Rapports cités centralisés dans ~/.claude/erom-plugins/researchs/ (frontmatter avec projet d'origine).",
+      "version": "0.5.0",
       "strict": true
     },
     {

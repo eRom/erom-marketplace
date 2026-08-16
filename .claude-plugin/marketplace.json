@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.18.0"
+    "version": "0.18.1"
   },
   "plugins": [
     {
@@ -90,7 +90,7 @@
         "ref": "main"
       },
       "description": "Explore un repo GitHub tiers et en extrait ce qui vaut d'être repris dans une config Claude Code. La skill harness cible les harnais et agents CLI concurrents (dsh, opencode, crush, goose) : swarm de lecteurs sur facettes disjointes, réfutation des fausses trouvailles, rapport or/argent/bronze. La skill tool-claude cible les outils qui se branchent sur Claude Code : brochure confrontée au code claim par claim, coût d'installation chiffré, gestes volés mesurés sur le corpus local avant tout patch. Rapports archivés et datés dans ~/.claude/erom-plugin-artefacts/insights/.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "strict": true
     }
   ]

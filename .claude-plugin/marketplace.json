@@ -30,7 +30,7 @@
         "ref": "main"
       },
       "description": "Avocats du diable : reviews critiques de specs (score, verdict, issues), interrogatoire socratique de brainstormings (les questions jamais posées) et review de changements de code (PR, branche, range, working tree), par Gemini, GLM, Deepseek, Opus et Kimi, unitaires ou en swarm.",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "strict": true
     },
     {
@@ -42,7 +42,7 @@
         "ref": "main"
       },
       "description": "Quatre moteurs de deep research complémentaires : agy (multi-rounds piloté par Claude, matrice de preuves, gate plan, vote 3 voix), claude (même pipeline via subagents natifs, sans dépendance externe), grok (moteur indépendant asynchrone hors quota Google) et NotebookLM (référentiel persistant de 40-70 sources, réinterrogeable). Rapports cités centralisés dans ~/.claude/erom-plugin-artefacts/researchs/ (frontmatter avec projet d'origine).",
-      "version": "0.6.1",
+      "version": "0.7.0",
       "strict": true
     },
     {

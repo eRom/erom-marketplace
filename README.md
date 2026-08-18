@@ -55,7 +55,7 @@ plugins dans l'autocomplete Claude Code, où ils côtoient les plugins officiels
 |---|---|---|---|
 | `erom-caserne` | [eRom/erom-caserne](https://github.com/eRom/erom-caserne) | `control`, `inbox`, `network`, `orchestrate`, `relay` | L'agence : identité Linear / Slack / mail via le MCP Caserne, swarm tmux de salariés IA, relais d'idées |
 | `erom-devil` | [eRom/erom-devil](https://github.com/eRom/erom-devil) | `spec`, `brain`, `code`, `review` (+ `-swarm`) | Avocats du diable externes (Gemini, GLM, Deepseek, Opus, Kimi) sur specs, brainstorms et changements de code, plus la porte de merge : porte déterministe, grille de stack, vérification contradictoire, verdict GO/NO-GO et rapport persistant |
-| `erom-research` | [eRom/erom-research](https://github.com/eRom/erom-research) | `agy`, `claude`, `grok`, `nlm` | Quatre moteurs de deep research : multi-rounds piloté, moteur natif sans dépendance externe, moteur indépendant asynchrone, référentiel NotebookLM persistant ; rapports centralisés dans `~/.claude/erom-plugin-artefacts/researchs/` |
+| `erom-research` | [eRom/erom-research](https://github.com/eRom/erom-research) | `deep-gemini`, `deep-claude`, `deep-grok`, `deep-notebook` | Quatre moteurs de deep research : multi-rounds piloté, moteur natif sans dépendance externe, moteur indépendant asynchrone, référentiel NotebookLM persistant ; rapports centralisés dans `~/.claude/erom-plugin-artefacts/researchs/` |
 | `erom-image` | [eRom/erom-image](https://github.com/eRom/erom-image) | `gpt`, `nanobanana`, `filigrane`, `qrcode` | Génération et édition d'images par MCP : texte exact et haute fidélité (OpenAI), volume et icônes (Gemini), puis filigrane image/PDF avant diffusion et QR-Code relu avant écriture |
 | `erom-marketing` | [eRom/erom-agence-marketing](https://github.com/eRom/erom-agence-marketing) | `voix`, `draft-content`, `brand-review` | Voix de marque eRom : magasin de voix local (socle + personas institut, perso, business), rédaction qui refuse d'écrire sans la voix, review en six passes avec findings sourcés |
 | `erom-gemini` | [eRom/erom-gemini](https://github.com/eRom/erom-gemini) | `transcribe`, `video`, `media`, `doc-to-md` | Les yeux et les oreilles de Claude Code : transcription audio/vidéo, breakdown visuel horodaté, Q&A sur un média, OCR document → markdown, offloadés vers Gemini |
@@ -67,7 +67,7 @@ Installation :
 /plugin install erom-devil@erom-marketplace
 ```
 
-Invocation : `/erom-devil:code`, `/erom-research:agy`, `/erom-caserne:inbox`, `/erom-image:gpt`, `/erom-gemini:transcribe`.
+Invocation : `/erom-devil:code`, `/erom-research:deep-gemini`, `/erom-caserne:inbox`, `/erom-image:gpt`, `/erom-gemini:transcribe`.
 
 ## Convention de nommage
 

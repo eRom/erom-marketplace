@@ -1,6 +1,6 @@
 # erom-marketplace
 
-> Plugins Claude Code et Codex de [Romain Ecarnot](https://github.com/eRom) — agents, skills et MCP servers pour orchestration multi-projets et productivité.
+> Plugins Claude Code et Codex de [Romain Ecarnot](https://github.com/eRom) - agents, skills et MCP servers pour orchestration multi-projets et productivité.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-plugins-8B5CF6)](https://docs.claude.com/en/docs/claude-code)
@@ -122,8 +122,8 @@ visibles de personne d'autre, et les renommer casserait terminaux et scripts pou
 
 ### Mode strict Claude
 
-- `strict: true` (défaut) — l'entrée marketplace ne sert qu'à pointer vers le plugin ; les métadonnées viennent de son `.claude-plugin/plugin.json`.
-- `strict: false` — l'entrée marketplace est auto-suffisante (utile tant que le repo plugin n'a pas encore son `plugin.json`).
+- `strict: true` (défaut) - l'entrée marketplace ne sert qu'à pointer vers le plugin ; les métadonnées viennent de son `.claude-plugin/plugin.json`.
+- `strict: false` - l'entrée marketplace est auto-suffisante (utile tant que le repo plugin n'a pas encore son `plugin.json`).
 
 ## Ajouter un nouveau plugin à la marketplace Codex
 

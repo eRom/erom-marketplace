@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.22.0"
+    "version": "0.22.1"
   },
   "plugins": [
     {
@@ -30,7 +30,7 @@
         "ref": "main"
       },
       "description": "Avocats du diable : reviews critiques de specs (score, verdict, issues), interrogatoire socratique de brainstormings (les questions jamais posées), review de changements de code (PR, branche, range, working tree) et porte de merge complète (porte déterministe, intention, grille de stack, vérification contradictoire, verdict GO/NO-GO, rapport persistant), par Gemini, GLM, Deepseek, Opus et Kimi, unitaires ou en swarm.",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "strict": true
     },
     {

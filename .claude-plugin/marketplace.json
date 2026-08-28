@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.22.2"
+    "version": "0.23.0"
   },
   "plugins": [
     {
@@ -91,6 +91,18 @@
       },
       "description": "Explore un repo GitHub tiers et en extrait ce qui vaut d'être repris dans une config Claude Code. La skill harness cible les harnais et agents CLI concurrents (dsh, opencode, crush, goose) : swarm de lecteurs sur facettes disjointes, réfutation des fausses trouvailles, rapport or/argent/bronze. La skill tool-claude cible les outils qui se branchent sur Claude Code : brochure confrontée au code claim par claim, coût d'installation chiffré, gestes repris mesurés sur le corpus local avant tout patch. La skill skill-claude juge une skill ou un plugin tiers avant installation : scanner de sécurité bloquant (exfiltration, exécution distante, caractères invisibles, injection), puis finalité, mécanisme, véracité et verdict installer / trash / refaire. Rapports archivés et datés dans ~/.claude/erom-store/insights/.",
       "version": "0.6.0",
+      "strict": true
+    },
+    {
+      "name": "erom-dev-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eRom/erom-agence-dev-plugin.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "description": "Le cycle de vie d'un plugin Claude Code eRom, du dépôt vide à la marketplace. La skill scaffold monte la structure d'un dépôt de plugin déjà onboardé (manifeste rempli depuis le remote, contrat de dépôt, arborescence) sans jamais écraser un fichier existant. La skill illustrate dessine la carte de présentation du plugin, une planche au fusain en 1536x1024 via GPT Image, dont chaque nom et chaque chiffre vient de l'inventaire réel lu par claude plugin details. La skill release publie une version : bump SemVer, préflight de cohérence rejouant les assertions de la CI, deux dépôts commités dans l'ordre plugin puis marketplace, vérification de la CI.",
+      "version": "0.1.0",
       "strict": true
     }
   ]

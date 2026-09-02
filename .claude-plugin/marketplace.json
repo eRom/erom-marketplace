@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.23.5"
+    "version": "0.24.0"
   },
   "plugins": [
     {
@@ -103,6 +103,18 @@
       },
       "description": "Le cycle de vie d'un plugin Claude Code eRom, du dépôt vide à la marketplace. La skill scaffold monte la structure d'un dépôt de plugin déjà onboardé (manifeste rempli depuis le remote, contrat de dépôt, arborescence) sans jamais écraser un fichier existant. La skill illustrate dessine la carte de présentation du plugin, une planche au fusain en 1536x1024 via GPT Image, dont chaque nom vient de l'inventaire réel lu par claude plugin details et dont la composition se dérive de ce que le plugin résout. La skill release publie une version : bump SemVer, préflight de cohérence rejouant les assertions de la CI, deux dépôts commités dans l'ordre plugin puis marketplace, vérification de la CI.",
       "version": "0.1.4",
+      "strict": true
+    },
+    {
+      "name": "erom-seo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eRom/erom-agence-seo.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "description": "Le cycle SEO/GEO complet d'un site sans abonnement tiers, en six skills. strategy produit le contrat du site par interview (pages, mots-clés mesurés chez Bing et Wikipédia, entité, cadence de fraîcheur). audit en fait le relevé daté, de la seule URL publique jusqu'au code lancé en local, collecte brute conservée. build corrige le code une trouvaille par commit jusqu'à ce qu'un audit frais n'ait plus ni Critique ni Important. checklist tient les quinze cases avant et après la mise en ligne, chacune avec sa preuve, plus les jalons J+1 à J+90. console lit Search Console et Bing Webmaster Tools depuis le terminal, et soumet le sitemap aux deux moteurs avec le ping IndexNow. rapport sort le livrable client, un HTML autonome et imprimable bâti sur une seule action à faire dans la semaine. Chaque vérification cite mot pour mot la documentation officielle du moteur qu'elle invoque.",
+      "version": "1.0.0",
       "strict": true
     }
   ]

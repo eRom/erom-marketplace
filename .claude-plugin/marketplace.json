@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.24.0"
+    "version": "0.25.0"
   },
   "plugins": [
     {
@@ -30,7 +30,7 @@
         "ref": "main"
       },
       "description": "Avocats du diable : reviews critiques de specs (score, verdict, issues), interrogatoire socratique de brainstormings (les questions jamais posées), review de changements de code (PR, branche, range, working tree) et porte de merge complète (porte déterministe, intention, grille de stack, vérification contradictoire, verdict GO/NO-GO, rapport persistant), par Gemini, GLM, Deepseek, Opus et Kimi, unitaires ou en swarm.",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "strict": true
     },
     {
@@ -42,7 +42,7 @@
         "ref": "main"
       },
       "description": "Quatre moteurs de deep research complémentaires : deep-gemini (agy/Antigravity, multi-rounds piloté par Claude, matrice de preuves, gate plan, vote 3 voix), deep-claude (même pipeline via subagents natifs, sans dépendance externe), deep-grok (moteur indépendant asynchrone hors quota Google) et deep-notebook (NotebookLM, référentiel persistant de 40-70 sources, réinterrogeable). Rapports cités centralisés dans ~/.claude/erom-plugin-artefacts/researchs/ (frontmatter avec projet d'origine).",
-      "version": "0.9.0",
+      "version": "0.9.2",
       "strict": true
     },
     {
@@ -78,7 +78,7 @@
         "ref": "main"
       },
       "description": "Offloade vers Gemini (Antigravity CLI) les capacités multimodales absentes de Claude Code : transcription fidèle d'un audio/vidéo, breakdown visuel horodaté d'une vidéo (scènes, OCR écran), question-réponse sur un média, conversion OCR document → markdown. Sorties sauvées dans docs/gemini/.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "strict": true
     },
     {

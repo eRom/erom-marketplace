@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.26.0"
+    "version": "0.26.1"
   },
   "plugins": [
     {
@@ -126,7 +126,7 @@
         "ref": "main"
       },
       "description": "Gate design avant de montrer un rendu UI : un juge vision externe (Gemini via Antigravity CLI) évalue une ou plusieurs captures étiquetées par état (repos, survol, focus, après clic) contre la grille eRom du profil DS actif, perso dark-first ou institut papier/encre, et rend un verdict PASS/FAIL sur 10 critères binaires ancré sur ce qui est vu, avec preuves observées et suggestions courtes. Le juge ne modifie rien.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "strict": true
     }
   ]

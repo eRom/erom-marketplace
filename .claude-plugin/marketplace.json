@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.27.0"
+    "version": "0.28.0"
   },
   "plugins": [
     {
@@ -138,6 +138,18 @@
         "ref": "main"
       },
       "description": "Construire, déboguer et mesurer une app iOS native en SwiftUI avec Claude Code, le simulateur sous les yeux. Neuf skills traduites et adaptées de build-ios-apps (OpenAI, MIT) : ios-app-intents conçoit App Intents, App Entities et App Shortcuts ; swiftui-ui-patterns, swiftui-view-refactor et swiftui-liquid-glass façonnent l'UI ; ios-debugger-agent build, lance et débogue sur Simulator via le serveur MCP XcodeBuildMCP 2.7.0 embarqué ; ios-simulator-browser affiche et pilote le Simulator dans le Browser pane de Claude Code Desktop ou dans Chrome ; swiftui-performance-audit, ios-ettrace-performance et ios-memgraph-leaks mesurent la performance et traquent les fuites mémoire.",
+      "version": "0.1.0",
+      "strict": true
+    },
+    {
+      "name": "erom-dev-macos-apps",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eRom/erom-agence-dev-macos-apps.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "description": "Construire, lancer, tester et livrer une app macOS native en SwiftUI avec Claude Code. Onze skills traduites et adaptées de build-macos-apps (OpenAI, MIT) : swiftui-patterns, window-management, liquid-glass, view-refactor et appkit-interop façonnent scenes, windows et UI desktop ; build-run-debug et swiftpm-macos buildent et lancent via un script build_and_run.sh unique ; test-triage et telemetry isolent les tests en échec et vérifient les événements Logger ; signing-entitlements et packaging-notarization diagnostiquent la signature et préparent la distribution. Trois commandes au slash : build-and-run-macos-app, test-macos-app, fix-codesign-error.",
       "version": "0.1.0",
       "strict": true
     }

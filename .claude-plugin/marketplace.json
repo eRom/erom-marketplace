@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.26.3"
+    "version": "0.27.0"
   },
   "plugins": [
     {
@@ -127,6 +127,18 @@
       },
       "description": "Gate design avant de montrer un rendu UI : un juge vision externe (Gemini via Antigravity CLI) évalue une ou plusieurs captures étiquetées par état (repos, survol, focus, après clic) contre la grille eRom du profil DS actif, perso dark-first ou institut papier/encre, et rend un verdict PASS/FAIL sur 10 critères binaires ancré sur ce qui est vu, avec preuves observées et suggestions courtes. Le juge ne modifie rien.",
       "version": "0.1.1",
+      "strict": true
+    },
+    {
+      "name": "erom-dev-ios-apps",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eRom/erom-agence-dev-ios-apps.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "description": "Construire, déboguer et mesurer une app iOS native en SwiftUI avec Claude Code, le simulateur sous les yeux. Neuf skills traduites et adaptées de build-ios-apps (OpenAI, MIT) : ios-app-intents conçoit App Intents, App Entities et App Shortcuts ; swiftui-ui-patterns, swiftui-view-refactor et swiftui-liquid-glass façonnent l'UI ; ios-debugger-agent build, lance et débogue sur Simulator via le serveur MCP XcodeBuildMCP 2.7.0 embarqué ; ios-simulator-browser affiche et pilote le Simulator dans le Browser pane de Claude Code Desktop ou dans Chrome ; swiftui-performance-audit, ios-ettrace-performance et ios-memgraph-leaks mesurent la performance et traquent les fuites mémoire.",
+      "version": "0.1.0",
       "strict": true
     }
   ]

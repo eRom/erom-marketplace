@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.29.0"
+    "version": "0.30.0"
   },
   "plugins": [
     {
@@ -150,6 +150,18 @@
         "ref": "main"
       },
       "description": "Construire, lancer, tester et livrer une app macOS native en SwiftUI avec Claude Code. Onze skills traduites et adaptées de build-macos-apps (OpenAI, MIT) : swiftui-patterns, window-management, liquid-glass, view-refactor et appkit-interop façonnent scenes, windows et UI desktop ; build-run-debug et swiftpm-macos buildent et lancent via un script build_and_run.sh unique ; test-triage et telemetry isolent les tests en échec et vérifient les événements Logger ; signing-entitlements et packaging-notarization diagnostiquent la signature et préparent la distribution. Trois commandes au slash : build-and-run-macos-app, test-macos-app, fix-codesign-error.",
+      "version": "0.1.0",
+      "strict": true
+    },
+    {
+      "name": "erom-motion-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eRom/erom-tool-motion-design.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "description": "Boîte à outils de motion design, complément de HyperFrames et Remotion. Quatre skills : motion-context branche références décortiquées (14 vidéos), images (Seedream, Nanobanana, Pixabay), vidéo (Seedance 2.5, MiniMax H3 via MCP fal) et musique (Lyria) ; sonniss-catalog-audio-fx pose des bruitages de la banque Sonniss GDC 2024 ; gemini-vocal-generator crée des voix et dialogues Gemini TTS ; reverse-animation rétro-conçoit une animation front-end depuis une vidéo (Glimpse via OpenRouter + planche-contact mesurée) en spec et code CSS, GSAP ou HyperFrames.",
       "version": "0.1.0",
       "strict": true
     }

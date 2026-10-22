@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.30.2"
+    "version": "0.31.0"
   },
   "plugins": [
     {
@@ -42,7 +42,7 @@
         "ref": "main"
       },
       "description": "Quatre moteurs de deep research complémentaires : deep-gemini (agy/Antigravity, multi-rounds piloté par Claude, matrice de preuves, gate plan, vote 3 voix), deep-claude (même pipeline via subagents natifs, sans dépendance externe), deep-grok (moteur indépendant asynchrone hors quota Google) et deep-notebook (NotebookLM, référentiel persistant de 40-70 sources, réinterrogeable). Rapports cités centralisés dans ~/.claude/erom-store/researchs/ (frontmatter avec projet d'origine).",
-      "version": "0.9.2",
+      "version": "0.10.0",
       "strict": true
     },
     {

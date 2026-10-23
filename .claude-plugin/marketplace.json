@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.32.0"
+    "version": "0.33.0"
   },
   "plugins": [
     {
@@ -125,8 +125,8 @@
         "path": "plugin",
         "ref": "main"
       },
-      "description": "Des yeux pour Claude, en deux skills. gate-vision : gate design avant de montrer un rendu UI, un juge vision externe (Gemini via Antigravity CLI) évalue une ou plusieurs captures étiquetées par état (repos, survol, focus, après clic) contre la grille eRom du profil DS actif, perso dark-first ou institut papier/encre, et rend un verdict PASS/FAIL sur 10 critères binaires ancré sur ce qui est vu. glimpse-vision : fait regarder une vidéo (test e2e Playwright, enregistrement macOS) ou une image par elorian/glimpse via OpenRouter et rend un rapport Markdown horodaté, chronologie, texte à l'écran et anomalies visuelles. Prérequis : agy pour le gate, bun et OPENROUTER_API_KEY pour glimpse.",
-      "version": "0.2.0",
+      "description": "Des yeux pour Claude, en deux skills. gate-vision : gate design avant de montrer un rendu UI, un juge vision externe (Gemini via Antigravity CLI) évalue une ou plusieurs captures étiquetées par état (repos, survol, focus, après clic) contre la grille eRom du profil DS actif, application dark natif macOS, perso dark-first ou institut papier/encre, et rend un verdict PASS/FAIL sur 10 critères binaires ancré sur ce qui est vu. glimpse-vision : fait regarder une vidéo (test e2e Playwright, enregistrement macOS) ou une image par elorian/glimpse via OpenRouter et rend un rapport Markdown horodaté, chronologie, texte à l'écran et anomalies visuelles. Prérequis : agy pour le gate, bun et OPENROUTER_API_KEY pour glimpse.",
+      "version": "0.3.0",
       "strict": true
     },
     {

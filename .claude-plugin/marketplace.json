@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, MCP, workflows, hooks and productivity tools",
-    "version": "0.37.0"
+    "version": "0.37.1"
   },
   "plugins": [
     {
@@ -174,7 +174,7 @@
         "ref": "main"
       },
       "description": "Le cycle de vie d'une session d'agent Claude Code. La skill session-whoami rend la carte d'identité de la session courante (nom, session ID, PID, session claude.ai, socket, lanceur, branche, transcript, scratchpad). La skill session-profile active ou coupe des plugins pour un seul répertoire via settings.local.json, par profils prédéfinis, avec le LSP du langage détecté. La skill session-handoff condense la conversation en document de passation (mission, décisions, impasses, pièges, première action) et notifie la session cible. La skill session-retro mène la rétrospective d'un chantier : digest des transcripts, lecteurs parallèles via l'agent retro-reader livré par le plugin (aussi utilisé par harness-review), rapport dans _memory_/retros/ et écritures validées une à une. La skill session-end cartographie la connaissance projet dans _memory_/ et commite ces seuls fichiers.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "strict": true
     }
   ]
